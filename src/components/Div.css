@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg);
+}
+.div1 {
+  margin-left: 350px;
+  width: 800px;
+  height: 590px;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.h1 {
+  font-weight: 100;
+  font-family: cursive;
+  font-size: 130%;
+  padding-top: 7px;
+  padding-left: 20px;
+}
+
+img {
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.coment {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+
+  background: rgb(227, 230, 230);
+  /* flex-direction: column; */
+  padding: 10px;
+  border-radius: 10px;
+  img {
+    width: 90px;
+  }
+  gap: 60px;
+  align-items: start;
+}
+
+.colors {
+  padding-top: 10px;
+  display: flex;
+  flex-flow: row wrap;
+
+  align-items: center;
+  justify-self: start;
+
+  gap: 10px;
+}
+
+.black {
+  width: 30px;
+  height: 30px;
+  background: red;
+  border-radius: 50%;
+}
+.blue {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(68, 162, 250);
+  border-radius: 50%;
+}
+.aqua {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(26, 243, 98);
+  border-radius: 50%;
+}
+.class {
+  display: flex;
+  gap: 10px;
+}
+.container {
+  height: 40px;
+
+  background: rgb(227, 230, 230);
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.flex {
+  display: flex;
+  margin-right: 300px;
+  justify-content: space-between;
+  flex-direction: column;
+}
